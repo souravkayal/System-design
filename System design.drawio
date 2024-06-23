@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T12:09:07.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="W3D0WgLme-0hKhBMNvaD" version="24.6.2" type="device" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-23T12:15:55.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aWMQgFNyiqDpad5QMks1" version="24.6.2" type="device" pages="4">
   <diagram id="liPY2WwG6RCTzwPyREM2" name="Real state app">
     <mxGraphModel dx="1674" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -432,15 +432,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EE-J7p6r7_HT4X1kQ-R8" name="Page-4">
-    <mxGraphModel dx="2819" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3241" dy="2203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-65" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-65" value="Reporting Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="730" y="660" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Booking portal&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="253" y="-110" width="345" height="70" as="geometry" />
+          <mxGeometry x="325" y="-110" width="345" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-290" y="486" width="30" height="60" as="geometry" />
@@ -466,7 +466,7 @@
             <mxPoint x="49" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-10" value="Elastic Search" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-10" value="Master&lt;div&gt;Search&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="419" y="173" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.04;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DFou0Xm-zqg-1rGIR4Zg-8" target="DFou0Xm-zqg-1rGIR4Zg-7">
@@ -602,7 +602,7 @@
             <mxPoint x="450" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-43" value="Backend Search Panel" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-43" value="Backend Search Panel Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="730" y="173" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DFou0Xm-zqg-1rGIR4Zg-43" target="DFou0Xm-zqg-1rGIR4Zg-10">
@@ -611,12 +611,12 @@
             <mxPoint x="450" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DFou0Xm-zqg-1rGIR4Zg-43" target="DFou0Xm-zqg-1rGIR4Zg-20">
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="300" as="sourcePoint" />
-            <mxPoint x="450" y="250" as="targetPoint" />
+            <mxPoint x="760" y="171" as="sourcePoint" />
+            <mxPoint x="543.9999999999995" y="128" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="770" y="130" />
+              <mxPoint x="760" y="128" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -638,7 +638,7 @@
             <mxPoint x="450" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-52" value="Property manager portal" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-52" value="Property manager Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="730" y="330" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-53" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
@@ -656,7 +656,7 @@
             <mxPoint x="484" y="369.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-56" value="Review modarator" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-56" value="Review moderator Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="730" y="491" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-57" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
@@ -673,9 +673,6 @@
             <mxPoint x="727" y="530" as="sourcePoint" />
             <mxPoint x="490" y="530.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-64" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.analytics;" vertex="1" parent="1">
-          <mxGeometry x="740" y="670.6" width="60" height="58.8" as="geometry" />
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -757,6 +754,18 @@
         </mxCell>
         <mxCell id="DFou0Xm-zqg-1rGIR4Zg-79" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" vertex="1" parent="1">
           <mxGeometry x="53" y="800.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-80" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Property manager&lt;/h1&gt;&lt;p&gt;User manages availability of property in system.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="152" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-81" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Property Admin&lt;/h1&gt;&lt;p&gt;User setup pricing, availability , enable , disable booking etc&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="325.5" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-82" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Property Moderator&lt;/h1&gt;&lt;p&gt;User moderate image, comment, review, rating to the property&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="480" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DFou0Xm-zqg-1rGIR4Zg-83" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Executive&lt;/h1&gt;&lt;p&gt;Executive user sees live update of property and analytics&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="660" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
