@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="25.0.3" pages="13">
   <diagram id="liPY2WwG6RCTzwPyREM2" name="99Acar">
     <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2727,6 +2727,71 @@
         </mxCell>
         <mxCell id="MjF_aAWQjQ9T8u5RKPL2-60" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
           <mxGeometry x="230" y="744" width="50" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ppVekz9EzpENd8hUMaX1" name="multi-agent-workflow-system">
+    <mxGraphModel dx="2524" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-1" target="yKzNrQ7kemboqFWb_RrE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-2" target="yKzNrQ7kemboqFWb_RrE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-2" target="yKzNrQ7kemboqFWb_RrE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-2" value="Main agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-3" target="yKzNrQ7kemboqFWb_RrE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-3" target="yKzNrQ7kemboqFWb_RrE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-3" value="Email task agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-4" target="yKzNrQ7kemboqFWb_RrE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-4" value="JIRA task agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-6" target="yKzNrQ7kemboqFWb_RrE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-6" value="Unread email summary tool" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-7" value="High priority email summary tool" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-13" value="Outlook APIs" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yKzNrQ7kemboqFWb_RrE-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="349.5" as="sourcePoint" />
+            <mxPoint x="470" y="349.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKzNrQ7kemboqFWb_RrE-17" target="yKzNrQ7kemboqFWb_RrE-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-17" value="High priority email summary tool" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKzNrQ7kemboqFWb_RrE-18" value="JIRA APIs" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
