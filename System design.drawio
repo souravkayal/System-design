@@ -2797,7 +2797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a5r0Spt8VJXP2m4Q5y3M" name="flow of RAG system with PDF files">
-    <mxGraphModel dx="2515" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2809" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2807,9 +2807,9 @@
         <mxCell id="PwiXhQs3JXMdMkCXpgAa-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-280" y="300" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PwiXhQs3JXMdMkCXpgAa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PwiXhQs3JXMdMkCXpgAa-2" target="PwiXhQs3JXMdMkCXpgAa-4">
+        <mxCell id="PwiXhQs3JXMdMkCXpgAa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PwiXhQs3JXMdMkCXpgAa-2" target="PwiXhQs3JXMdMkCXpgAa-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="210" as="targetPoint" />
+            <mxPoint x="240" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PwiXhQs3JXMdMkCXpgAa-12" value="File upload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PwiXhQs3JXMdMkCXpgAa-3">
@@ -2832,9 +2832,6 @@
         </mxCell>
         <mxCell id="PwiXhQs3JXMdMkCXpgAa-2" value="UI file Upload Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PwiXhQs3JXMdMkCXpgAa-4" value="File Storage&amp;nbsp;&lt;div&gt;account&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PwiXhQs3JXMdMkCXpgAa-5" value="File upload log" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="270" y="290" width="60" height="80" as="geometry" />
@@ -2860,8 +2857,10 @@
         <mxCell id="PwiXhQs3JXMdMkCXpgAa-8" value="File processor job" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="540" y="230" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PwiXhQs3JXMdMkCXpgAa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=45;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PwiXhQs3JXMdMkCXpgAa-4" target="PwiXhQs3JXMdMkCXpgAa-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PwiXhQs3JXMdMkCXpgAa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=45;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PwiXhQs3JXMdMkCXpgAa-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PwiXhQs3JXMdMkCXpgAa-11" value="Read file for processing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PwiXhQs3JXMdMkCXpgAa-9">
           <mxGeometry x="-0.4275" y="-2" relative="1" as="geometry">
@@ -2901,7 +2900,8 @@
         <mxCell id="PwiXhQs3JXMdMkCXpgAa-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PwiXhQs3JXMdMkCXpgAa-22" target="PwiXhQs3JXMdMkCXpgAa-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1030" y="490" />
+              <mxPoint x="950" y="590" />
+              <mxPoint x="950" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2963,6 +2963,9 @@
           <mxGeometry x="0.2303" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PwiXhQs3JXMdMkCXpgAa-47" value="File Storage&amp;nbsp;&lt;div&gt;account&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
